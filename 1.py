@@ -1,4 +1,4 @@
-# -*- coding:utf-8 -*-
+# -*- encoding:utf-8 -*-
 import random
 
 import re
@@ -96,6 +96,8 @@ def demo_dict():
     print dicta
     dicta[1] = 1  # 直接添加元素到dicta中
     print dicta
+    a = {4: 16, 1: 1, 2: 4, 3: 9}
+    print 1,a
 
 
 def demo_set():
@@ -178,7 +180,7 @@ if __name__ == '__main__':
     # demo_string()
     # demo_controlflow()
     # demo_list()
-    # demo_dict()
+    demo_dict()
     # demo_set()
     user1 = User('u1', 1)
     print user1
@@ -186,4 +188,4 @@ if __name__ == '__main__':
     print admin1
     print creat_user('ADMINX')
     # demo_random()
-    demo_re()
+    # demo_re()
